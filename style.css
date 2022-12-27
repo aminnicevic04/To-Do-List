@@ -1,0 +1,78 @@
+*{
+    background-color: rgb(217, 196, 238);
+}
+#form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    width: 500px;
+    margin-left: 25%;
+  }
+#form input{
+    height: 50px;
+    border: 1px solid blueviolet;
+}
+#form button{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+}
+#form button:hover{
+    background-color: white;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    transition: 0.5s;
+}
+#item {
+    flex-grow: 1;
+}
+#filters{
+    height: auto;
+    width: 50%;
+    margin-left: 25%;
+}
+#all{
+    width: 100px;
+    height: 30px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+}
+#completed{
+    width: 100px;
+    height: 30px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+}
+#active{
+    width: 100px;
+    height: 30px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+}
+#filters button:hover{
+    background-color: white;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    transition: 0.5s;
+}
+#list{
+    width: 50%;
+    margin-left: 25%;
+}
+#item{  
+    padding-left: 35%;
+}
+#delete{
+    width: 60px;
+    height: 30px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+}
